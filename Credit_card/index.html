@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"><!-- it cant change things.its written in eng lang-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>credit card protection </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  </head>
+  <body>
+   <div class="hero">
+      <div class="header">
+        <img src="logo_1.png" class="logo">
+        <a href="aboutus.html"><button class="btn"><h2><b>ABOUT US</b></h2></button></a>
+        <a href="features.html"><button class="btn"><h2><b>FEATURES</b></h2></button></a>
+        <a href="contact.html"><button class="btn"><h2><b>CONTACT US</b></h2></button></a>
+      </div><br>
+      <div class="content">
+         <h1> Credit Card Protection</h1>
+         <p><h3>Protect your and your family's Credit and Debit Cards<br> against any kind of losses.
+          </h3></p> <br>
+      </div>
+   </div>
+
+   <div class="container">
+     <section class="about">
+       <div class="about-imgage">
+        <img src="cc.png">
+       </div>
+       <div class="about-content">
+        <h2>Protect cards and peace of mind</h2>
+        <p><b>Card Protection is India's first comprehensive service for use in the event of card loss, theft and related fraud.
+          If you lose your cards (credit, debit, ATM), simply make one free call to our 24 hour Helpline,
+         from anywhere in the world, and we will block your lost cards.<br><br>You will not have to call your banks individually and would be free to continue
+         living your life while we take care of your worries.
+         We will also help provide emergency travel, hotel and cash assistance to ensure you are not stranded after losing your cards,
+         your wallet or your handbag and ensure that your life continues smoothly and you continue to be free of worries.<br></b>
+         </p>
+       </div>
+     </section>
+   </div>
+
+   <div class="containers">
+    <h2 class="text-center font-weight-bold">Our Partners</h2>
+    <section class="customer-logos slider">
+        <div class="slide"><img src="kotakbank.png" alt="logo"></div>
+        <div class="slide"><img src="Sbi_B.png" alt="logo"></div>
+        <div class="slide"><img src="Union_B.png" alt="logo"></div>
+        <div class="slide"><img src="Visa.png" alt="logo"></div>
+        <div class="slide"><img src="yes_B.png" alt="logo"></div>
+        <div class="slide"><img src="icici_B.png" alt="logo"></div>
+        <div class="slide"><img src="Hdfc_B.png" alt="logo"></div>
+        <div class="slide"><img src="Axisbank.png" alt="logo"></div>
+        <div class="slide"><img src="AmericanExpress.png" alt="logo"></div>
+    </section>
+   </div>
+   <script>
+   $(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover:false,
+        responsive: [{
+            breakpoint: 768,
+            setting: {
+                slidesToShow:4
+            }
+        }, {
+            breakpoint: 520,
+            setting: {
+                slidesToShow: 3
+            }
+        }]
+      });
+   });
+   </script>
+   
+  <footer>
+    <div class="row">
+      <div class="col">
+        <img src="logo_1.png" class="logo">
+        <p>Credit Card Protection encrypts all data and transactions to ensure a completely secure experience for our members</p>
+      </div>
+      <div class="col">
+        <h3>Office</h3>
+        <p>ITPL Road</p>
+        <p>Whitefield,Bangalore</p>
+        <p>Karnataka,PIN 560065,India</p>
+        <p class="email-id">ccp@gmail.com</p>
+        <p>+91 - 6748993758</p>
+      </div>
+      <div class="col">
+        <h3>Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Regulatory information</h3>
+        <ul>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Disclaimer</a></li>
+          <li><a href="#">Code of Commitment</a></li>
+          <li><p>Copyright 2024.All rights Reserved</p></li>
+        <ul>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>
